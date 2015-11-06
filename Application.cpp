@@ -68,7 +68,7 @@ HRESULT Application::Initialise(HINSTANCE hInstance, int nCmdShow)
 
 	// Initialize the world matrix
 	XMStoreFloat4x4(&_world, XMMatrixIdentity());
-	XMStoreFloat4x4(&_world2, XMMatrixIdentity());
+	XMStoreFloat4x4(&_world2, XMMatrixIdentity()); // this is me testing git, because it's a bloody git, innit?
 
     // Initialize the view matrix
 	XMVECTOR Eye = XMVectorSet(0.0f, 0.0f, -15.0f, 0.0f);
